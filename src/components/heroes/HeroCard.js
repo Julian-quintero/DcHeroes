@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const HeroCard = ({
+export const HeroCard = ({ //argumentos que recibo
     id,
     superhero,
     alter_ego,

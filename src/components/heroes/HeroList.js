@@ -12,7 +12,7 @@ export const HeroList = ({ publisher }) => {
                heroes.map( hero => (
                    <HeroCard 
                         key={ hero.id }
-                        { ...hero }
+                        { ...hero } //esto extrae todas las propiedades y las manda como props
                     />
                    
                ))
